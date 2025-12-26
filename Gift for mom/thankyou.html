@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tak for alt</title>
+  <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #FFF8F4;
+      --peach: #FFD9C8;
+      --border: #FFC0A1;
+      --text-main: #5B4B50;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      background: radial-gradient(circle at bottom right, var(--peach), #ffffff 55%);
+      font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text-main);
+      padding: 24px 10px;
+    }
+
+    .wrapper {
+      max-width: 760px;
+      margin: 0 auto;
+      background: linear-gradient(140deg, #ffffff, var(--bg));
+      border-radius: 24px;
+      padding: 26px 22px;
+      border: 2px solid var(--border);
+      box-shadow: 0 14px 40px rgba(0, 0, 0, 0.06);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .wrapper::before {
+      content: "♡";
+      position: absolute;
+      font-family: "Handlee", cursive;
+      font-size: 3.2rem;
+      opacity: 0.12;
+      top: 12px;
+      right: 18px;
+    }
+
+    header {
+      margin-bottom: 14px;
+      text-align: left;
+    }
+
+    h1 {
+      font-family: "Handlee", cursive;
+      font-size: 2rem;
+      color: #ff7a7a;
+      margin-bottom: 4px;
+    }
+
+    .tagline {
+      font-size: 0.95rem;
+      opacity: 0.9;
+    }
+
+    .content {
+      margin-top: 18px;
+      line-height: 1.85;
+      font-size: 0.97rem;
+      background: #ffffffee;
+      border-radius: 18px;
+      padding: 18px 18px 18px;
+      border: 1px dashed var(--border);
+    }
+
+    .content p + p {
+      margin-top: 12px;
+    }
+
+    .signature {
+      margin-top: 16px;
+      font-family: "Handlee", cursive;
+      font-size: 1.1rem;
+      color: #e06a6a;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 18px;
+      font-size: 0.9rem;
+      text-decoration: none;
+      color: #e06a6a;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      padding: 6px 14px;
+      background: #ffffffee;
+      transition: background 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .back-link:hover {
+      background: var(--peach);
+      transform: translateY(-1px);
+      box-shadow: 0 5px 12px rgba(255, 170, 130, 0.45);
+    }
+  </style>
+</head>
+<body>
+  <main class="wrapper">
+    <header>
+      <h1>En tak til dig</h1>
+      <p class="tagline">
+        For hver en ting du har gjort for mig
+      </p>
+    </header>
+
+    <section class="content">
+      <!-- Replace with your own long thank-you letter -->
+      <p>
+        Hej mor, tusind tak for at være dig. Du har hjulpet mig utroligt meget igennem hele mit liv, og for det er jeg dybt taknemmelig. 
+      </p>
+      <p>
+        Tak for alle de gange du har været der for mig. Både i store og små øjeblikke. Jeg er så glad for at have dig som min mor, ikke kun fordi at du er min mor, men også fordi at du altid har været en af mine bedste venner. Selv hvis jeg ikke viser det meget fra mig, så er du en af dem jeg ser mest op til. Du er stærk, kærlig, sjov, omsorgsfuld, og kan altid hjælpe med at gøre mine dage bedre. 
+      </p>
+      <p>
+        Alle de gange hvor du har kunne mærke på mig at jeg var et dårligt sted, har du altid været der for mig, og har hjulpet mig igennem selv de mørkeste tider. Jeg har haft det meget svært med at tale om mine følelser generelt, så du skal ikke tro at det er fordi at det er dig jeg ikke gider at snakke med. De gange hvor jeg har snakket med dig omkring hvordan jeg har det, har altid hjulpet ekstremt meget, og jeg er så taknemmelig over at have en jeg kan snakke med. Jeg lover at jeg kommer med de ting der går mig på, når tiden er rigtig.
+      </p>
+      <p>
+        Selv alle de mindre ting du gør for mig, såsom alle de forskellige retter vi spiser om aftenen, som du har lavet med kærlighed. Alle de små snakke vi har ved bordet, de gange vi begge har siddet inde i stuen og set et eller andet sammen, eller de køreture vi har været på sammen.
+      </p>
+      <p>
+        Mest af alt er jeg taknemmelig for den måde du har vist mig at du elsker mig. Alle dine kram, dine grin og alle de gange du har set det bedste i mig. Du har været der for mig igennem hele mit liv. Selv hvis jeg syntes at verden er hård, er jeg altid sikker på at du vil være der for mig, og jeg ved at du elsker mig på en måde ingen andre kan. Du er en stor inspiration for mig, og du er ærligt talt en af mine største helte. Jeg er så stolt af at kunne kalde dig min mor, og jeg håber at du ved det.
+      </p>
+
+      <p class="signature">
+        Tak fordi at du er dig, og tak for at gøre mit liv så meget bedre. Jeg elsker dig mere end du ved.
+      </p>
+    </section>
+
+    <a href="index.html" class="back-link">← Tilbage til start</a>
+  </main>
+</body>
+</html>
